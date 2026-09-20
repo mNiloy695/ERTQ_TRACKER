@@ -88,6 +88,18 @@ docs/
 ├── product/
 │   ├── product-spec-and-scope.md      # Product Goals, Scope & Non-Goals
 │   └── user-experience-and-flows.md   # UI Wireframes, User Journeys & Provenance UI
+├── features/                          # [NEW] Granular Feature Specifications (Status: PENDING)
+│   ├── README.md                      # Feature Specs Index (FEAT-01 to FEAT-10)
+│   ├── 01-earthquake-explorer-map.md
+│   ├── 02-earthquake-catalog-ingestion.md
+│   ├── 03-location-intelligence.md
+│   ├── 04-tectonic-context.md
+│   ├── 05-probabilistic-hazard-curves.md
+│   ├── 06-seismic-threshold-probabilities.md
+│   ├── 07-scientific-data-provenance.md
+│   ├── 08-scenario-shaking-analysis.md
+│   ├── 09-seismic-risk-loss-estimation.md
+│   └── 10-export-and-citations.md
 ├── scientific/
 │   ├── scientific-methodology.md      # Hazard vs. Risk & AI Explanation Standards
 │   ├── hazard-and-risk-modeling.md    # OpenQuake Engine, PSHA & Scenario Modeling
